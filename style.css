@@ -2,7 +2,8 @@
 
 @font-face {
     font-family: PoppinsFont;
-    src: url(./poppins-regular-webfont.woff);
+    src: url(./poppins-medium-webfont.woff2) format('woff2'),
+    url(./poppins-medium-webfont.woff) format('woff');
 }
 
 * {
@@ -12,7 +13,7 @@
     scroll-behavior: smooth;
     border: none;
     outline: none;
-    font-family: PoppinsFont, 'sans-serif';
+    font-family: PoppinsFont, sans-serif;
 }
 
 html{
