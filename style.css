@@ -362,13 +362,12 @@ span{
 
 .about-content p{
     font-size: 1.3rem;
-    margin: 2rem 14rem 3rem;
+    margin: 2rem 13rem 3rem;
 }
 
 .btn-box.btns {
     display: inline-block;
     width: 14rem;
-    /* height: 3rem; */
 }
 
 .contact .btn-box.btns {
@@ -391,7 +390,8 @@ span{
 }
 
 .projects a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    height: 2.9rem;
 }
 
 .projects .project-row{
@@ -444,7 +444,7 @@ span{
 }
 
 .content p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.7rem;
 }
@@ -514,8 +514,18 @@ span{
     }
 
     .projects a {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         width: 97%;
+        height: 3rem;
+    }
+
+    .content p {
+        font-size: 1.35rem;
+    }
+
+    .about-img {
+        width: 27.7rem;
+        height: 27.7rem;
     }
 }
 
@@ -539,10 +549,20 @@ span{
     .projects a {
         font-size: 1.5rem;
         width: 95%;
+        height: 3rem;
     }
 
     .about-content p {
-        margin: 2rem 5rem 3rem;
+        margin: 2rem 4rem 3rem;
+    }
+
+    .content p {
+        font-size: 1.3rem;
+    }
+
+    .about-img {
+        width: 26.3rem;
+        height: 26.3rem;
     }
 }
 
@@ -589,10 +609,20 @@ span{
     .projects a {
         font-size: 1.38rem;
         width: 90%;
+        height: 3rem;
     }
 
     .about-content p {
-        margin: 2rem 5rem 3rem;
+        margin: 2rem 4rem 3rem;
+    }
+
+    .content p {
+        font-size: 1.1rem;
+    }
+
+    .about-img {
+        width: 24.5rem;
+        height: 24.5rem;
     }
 }
 
@@ -627,10 +657,31 @@ span{
     .projects a {
         font-size: 1.3rem;
         width: 87%;
+        height: 2.9rem;
     }
 
     .about-content p {
-        margin: 2rem 5rem 3rem;
+        margin: 2rem 3.5rem 3rem;
+        font-size: 1.7rem;
+    }
+
+    .about-content h3 {
+        font-size: 2.65rem;
+    }
+
+    .contact .btn-box.btns a{
+        display: inline-block;
+        width: 16rem;
+        height: 3.8rem;
+    }
+
+    .content p {
+        font-size: 1.3rem;
+    }
+
+    .about-img {
+        width: 31.3rem;
+        height: 31.3rem;
     }
 }
 
@@ -649,7 +700,8 @@ span{
 
     .projects a {
         font-size: 1.2rem;
-        width: 80%;
+        width: 85%;
+        height: 2.9rem;
     }
 
     .contact form .input-box .input-field {
@@ -661,8 +713,28 @@ span{
     }
 
     .about-content p {
-        font-size: 1.4rem;
-        margin: 2rem 5rem 3rem;
+        font-size: 1.7rem;
+        margin: 2rem 3.5rem 3rem;
+    }
+
+    .about-content h3 {
+        font-size: 2.4rem;
+    }
+
+    .contact .btn-box.btns a{
+        display: inline-block;
+        width: 14rem;
+        height: 3.6rem;
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1.3rem;
+    }
+
+    .about-img {
+        width: 29rem;
+        height: 29rem;
     }
 }
 
@@ -691,16 +763,20 @@ span{
     }
 
     .about-content p {
-        font-size: 1.2rem;
-        margin: 2rem 5rem 3rem;
+        font-size: 1.5rem;
+        margin: 2rem 3.5rem 3rem;
     }
 
     .about-content h3 {
-        font-size: 1.8rem;
+        font-size: 2.1rem;
     }
 
     .project-row .project-column{
         width: 20rem;
+    }
+
+    .content p {
+        font-size: 1.3rem;
     }
 }
 
