@@ -1,5 +1,10 @@
 @import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: PoppinsFont;
+    src: url(./poppins-bold-webfont.woff);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@
     scroll-behavior: smooth;
     border: none;
     outline: none;
-    font-family: 'Poppins', 'sans-serif';
+    font-family: PoppinsFont, 'sans-serif';
 }
 
 html{
