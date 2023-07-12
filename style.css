@@ -692,7 +692,7 @@ span{
     }
 
     .about-content p {
-        margin: 2rem 2.6rem 3rem;
+        margin: 2rem 2.3rem 3rem;
         font-size: 1.7rem;
     }
 
@@ -700,11 +700,10 @@ span{
         font-size: 2.65rem;
     }
 
-    .contact .btn-box.btns a{
-        display: inline-block;
-        width: 13rem;
-        height: 2.8rem;
-        font-size: 1.8rem;
+    .contact .btn-box.btns a {
+        width: 13.5rem;
+        height: 3.2rem;
+        font-size: 1.6rem;
     }
 
     .content p {
@@ -769,7 +768,7 @@ span{
 
     .about-content p {
         font-size: 1.7rem;
-        margin: 2rem 2.6rem 3rem;
+        margin: 2rem 2.3rem 3rem;
     }
 
     .about-content h3 {
@@ -824,7 +823,7 @@ span{
 
     .about-content p {
         font-size: 1.5rem;
-        margin: 2rem 2.6rem 3rem;
+        margin: 2rem 2.3rem 3rem;
     }
 
     .about-content h3 {
