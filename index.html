@@ -20,16 +20,6 @@
           font-family: 'Poppins', sans-serif;
         }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-        const form = document.getElementById("contactForm");
-    
-        form.addEventListener("submit", function(event) {
-        event.preventDefault();
-        form.reset();
-        });
-        });
-    </script>
 </head>
 
 <body>
@@ -193,7 +183,7 @@
             </div>
             <br>
             <div class="btn-box btns">
-                <a type="submit" class="btn" input="">Submit</button>
+                <a type="reset" class="btn" input="" style="cursor: pointer;" onclick="alert('Thanks for contacting')"">Submit</button>
             </div>
         </form>
     </section>
