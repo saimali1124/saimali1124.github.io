@@ -19,8 +19,18 @@
         body {
           font-family: 'Poppins', sans-serif;
         }
-      </style>
-    </head>
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const form = document.getElementById("contactForm");
+    
+        form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        form.reset();
+        });
+        });
+    </script>
+</head>
 
 <body>
     <header class="header">
@@ -42,7 +52,7 @@
         <div class="home-content">
             <h1>Hi, I'm Saim Ali</h1>
             <h3>Fullstack Web Developer</h3>
-            <p style="font-family: Poppins;">I am a MERN Stack developer and I have created dynamic web applications with user authentication and data visualization. My portfolio showcases projects highlighting my expertise in frontend and backend development and delivering engaging user experiences.</p>
+            <p style="font-family: Poppins;">I am a fullstack enthusiast and I have created dynamic web applications with user authentication and data visualization. My portfolio showcases projects highlighting my expertise in frontend and backend development and delivering engaging user experiences.</p>
             <div class="btn-box">
                 <a href="#contact">Contact Me</a>
                 <a download="Saim's Resume" class="download-btn" href="./resume.pdf"><i class='bx bx-download'></i>&nbsp;Resume</a>
@@ -165,14 +175,14 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form id="contactForm" action="#">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Full Name" required autocomplete="on">
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Email Address" required>
+                    <input type="text" placeholder="Email Address" required autocomplete="on">
                     <span class="focus"></span>
                 </div>
             </div>
@@ -183,7 +193,7 @@
             </div>
             <br>
             <div class="btn-box btns">
-                <a type="submit" class="btn">Submit</button>
+                <a type="submit" class="btn" input="">Submit</button>
             </div>
         </form>
     </section>
